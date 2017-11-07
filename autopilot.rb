@@ -1,4 +1,3 @@
-
 def get_new_car
   {
     city: 'Toronto',
@@ -88,6 +87,5 @@ def add_one_car_per_day(cars, num_days)
     command_fleet(cars)
   end
 end
-
 cars = []
 add_one_car_per_day(cars, 10)
